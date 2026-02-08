@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom reusable styles */
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-xl bg-indigo-600 text-white font-medium
+           hover:bg-indigo-700 transition;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-xl p-8
+           hover:-translate-y-2 transition;
+  }
+}
+section {
+  scroll-margin-top: 80px;
+}
+html {
+  scroll-behavior: smooth;
+}
