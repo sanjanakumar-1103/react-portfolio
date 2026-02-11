@@ -75,36 +75,48 @@ function Projects() {
           </motion.div>
 
           {/* Certified Project */}
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="bg-white rounded-2xl shadow-xl p-8 hover:-translate-y-2 transition"
-          >
-            <div className="text-xs text-emerald-600 font-semibold mb-2">
+          {/* Project 3 */}
+<motion.div
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5 }}
+  className="bg-white rounded-2xl shadow-xl p-8 hover:-translate-y-2 transition"
+>
+   <div className="text-xs text-emerald-600 font-semibold mb-2">
               🎓 Certified Project
             </div>
 
-            <h3 className="text-xl font-semibold mb-2">
-              Twitter Sentiment Analysis
-            </h3>
+  <h3 className="text-xl font-semibold mb-2">
+    Twitter Sentiment Analysis
+  </h3>
 
-            <p className="text-sm text-gray-500 mb-4">
-              NLP • Machine Learning
-            </p>
+  <p className="text-sm text-gray-500 mb-4">
+    NLP • Machine Learning
+  </p>
 
-            <p className="text-gray-600 mb-6">
-              Performed sentiment analysis on Twitter data using NLP pipelines
-              to classify public opinion. Project completed during an academic
-              internship program.
-            </p>
+  <p className="text-gray-600 mb-6">
+    Sentiment analysis project completed as part of AI certification.
+    Focused on NLP pipelines and classification techniques.
+  </p>
+<span className="text-sm text-gray-400">
+              Code unavailable • Certification verified</span>
+  <div className="flex gap-3">
+    <a
+      href="/Certificate.pdf"
+      target="_blank"
+      rel="noreferrer"
+      className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm hover:bg-indigo-700 transition"
+    >
+      View Certificate
+    </a>
+  </div>
+</motion.div>
 
-            <span className="text-sm text-gray-400">
-              Code unavailable • Certification verified
-            </span>
-          </motion.div>
 
+            
+            
+         
         </div>
       </div>
     </section>

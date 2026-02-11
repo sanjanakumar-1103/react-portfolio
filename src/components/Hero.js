@@ -51,7 +51,7 @@ function Hero() {
           className="flex flex-col sm:flex-row justify-center gap-4"
         >
           <a
-            href="/resume.pdf"
+            href="/resume_SANJANA.pdf"
             download
             className="px-8 py-3 bg-indigo-500 text-white rounded-xl font-medium
                        hover:bg-indigo-600 hover:scale-[1.03] transition"
